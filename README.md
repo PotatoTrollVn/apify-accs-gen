@@ -21,10 +21,14 @@ pip install DrissionPage requests
 
 ## Sử dụng
 
-Cách nhanh nhất là chạy file `main.py`. Nó sẽ tự động kích hoạt tuần tự toàn bộ quy trình từ Tạo Email -> Đăng Ký -> Lấy Token -> Kiểm tra Token.
+Cách nhanh nhất là chạy file `main.py` kèm theo số lượng tài khoản muốn tạo (từ 1 đến 100). Nó sẽ tự động kích hoạt tuần tự toàn bộ quy trình: Tạo Email -> Đăng Ký -> Lấy Token -> Kiểm tra Token.
 
 ```bash
-python main.py
+# Tạo 1 tài khoản
+python main.py 1
+
+# Tạo hàng loạt 100 tài khoản
+python main.py 100
 ```
 
 ### Chạy lẻ từng chức năng:
