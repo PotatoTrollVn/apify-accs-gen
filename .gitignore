@@ -1,0 +1,17 @@
+# Ignore all JSON files to protect sensitive tokens and accounts
+*.json
+
+# Exceptions (if any config needs to be tracked in the future, uncomment and add them)
+# !example_config.json
+
+# Python caches
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# IDE/OS files
+.vscode/
+.idea/
+.DS_Store
